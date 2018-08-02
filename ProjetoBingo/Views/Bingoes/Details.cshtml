@@ -1,0 +1,73 @@
+﻿@model ProjetoBingo.Entity.Bingo
+
+@{
+    Layout = null;
+}
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/scripts/jquery-3.0.0.min.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Bingo</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.DataHora)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DataHora)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DscCancelamenrto)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DscCancelamenrto)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DataCancelamento)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DataCancelamento)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IdBingo }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

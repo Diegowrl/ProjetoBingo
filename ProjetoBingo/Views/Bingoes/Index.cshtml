@@ -1,0 +1,95 @@
+﻿@model IEnumerable<ProjetoBingo.Entity.Bingo>
+
+@{
+    Layout = null;
+}
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/scripts/jquery-3.0.0.min.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataHora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                Ganhador
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataHora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                    @*below we setting a letter for a level of status*@ 
+                <td>
+                    @if (item.Status == "C")
+                    {
+                        <span>Cancelamento</span>
+                    }
+                    else if (item.Status == "A")
+                    {
+                        <span>Ativo</span>
+                    }
+                    else if (item.Status == "F")
+                    {
+                        <span>Finalizado</span>
+                    }
+
+                </td>
+                    @*Below we set the number that need to be checked to change the status to F, in that case is 15.*@
+                <td>
+                    @if (item.Status == "F")
+                    {
+                        <span>Cartela @item.Cartela.Where(x => x.NumerosAcertos == 15).SingleOrDefault().IdCartela</span>
+                    }
+                    else if (item.Status == "C")
+                    {
+                        <span>-</span>
+                    }
+                </td>
+                    @*Right there we have the links for the pages Edit and Detail and Delete and Sort if the bingo are not deleted or finished.*@
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.IdBingo }) |
+                    @Html.ActionLink("Detalhe", "Details", new { id = item.IdBingo })
+                    @if (item.Status != "F" && item.Status != "C")
+                    {
+                        <span>|</span>  @Html.ActionLink("Cancelamento", "Delete", new { id = item.IdBingo })
+                    }
+                    @if (item.Status != "F" && item.Status != "C")
+                    {
+                        <span>|</span>  @Html.ActionLink("Sorteio", "Sorteio", new { id = item.IdBingo })
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities">
+    <EntitySetMapping Name="Bingo">
+      <EntityTypeMapping TypeName="Database1Model.Bingo">
+        <MappingFragment StoreEntitySet="Bingo">
+          <ScalarProperty Name="IdBingo" ColumnName="IdBingo" />
+          <ScalarProperty Name="DataHora" ColumnName="DataHora" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DscCancelamenrto" ColumnName="DscCancelamenrto" />
+          <ScalarProperty Name="DataCancelamento" ColumnName="DataCancelamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BingoPremio">
+      <EntityTypeMapping TypeName="Database1Model.BingoPremio">
+        <MappingFragment StoreEntitySet="BingoPremio">
+          <ScalarProperty Name="IdBingo" ColumnName="IdBingo" />
+          <ScalarProperty Name="IdPremio" ColumnName="IdPremio" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cartela">
+      <EntityTypeMapping TypeName="Database1Model.Cartela">
+        <MappingFragment StoreEntitySet="Cartela">
+          <ScalarProperty Name="IdCartela" ColumnName="IdCartela" />
+          <ScalarProperty Name="DescricaoNumeros" ColumnName="DescricaoNumeros" />
+          <ScalarProperty Name="NumerosAcertos" ColumnName="NumerosAcertos" />
+          <ScalarProperty Name="IdBingo" ColumnName="IdBingo" />
+          <ScalarProperty Name="N1" ColumnName="N1" />
+          <ScalarProperty Name="N2" ColumnName="N2" />
+          <ScalarProperty Name="N3" ColumnName="N3" />
+          <ScalarProperty Name="N4" ColumnName="N4" />
+          <ScalarProperty Name="N5" ColumnName="N5" />
+          <ScalarProperty Name="N6" ColumnName="N6" />
+          <ScalarProperty Name="N7" ColumnName="N7" />
+          <ScalarProperty Name="N8" ColumnName="N8" />
+          <ScalarProperty Name="N9" ColumnName="N9" />
+          <ScalarProperty Name="N10" ColumnName="N10" />
+          <ScalarProperty Name="N11" ColumnName="N11" />
+          <ScalarProperty Name="N12" ColumnName="N12" />
+          <ScalarProperty Name="N13" ColumnName="N13" />
+          <ScalarProperty Name="N14" ColumnName="N14" />
+          <ScalarProperty Name="N15" ColumnName="N15" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Premio">
+      <EntityTypeMapping TypeName="Database1Model.Premio">
+        <MappingFragment StoreEntitySet="Premio">
+          <ScalarProperty Name="IdPremio" ColumnName="IdPremio" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="Database1Model.Store.FNGerarCartela" FunctionImportName="FNGerarCartela">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Database1Model.FNGerarCartela_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_GerarCartelas" FunctionName="Database1Model.Store.PRC_GerarCartelas" />
+  </EntityContainerMapping>
+</Mapping>

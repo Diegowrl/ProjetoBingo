@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bingo">
+    <Key>
+      <PropertyRef Name="IdBingo" />
+    </Key>
+    <Property Name="IdBingo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DataHora" Type="datetime" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="nvarchar" MaxLength="1" />
+    <Property Name="DscCancelamenrto" Type="nvarchar" MaxLength="200" />
+    <Property Name="DataCancelamento" Type="datetime" />
+  </EntityType>
+  <EntityType Name="BingoPremio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="IdBingo" Type="int" Nullable="false" />
+    <Property Name="IdPremio" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cartela">
+    <Key>
+      <PropertyRef Name="IdCartela" />
+    </Key>
+    <Property Name="IdCartela" Type="int" Nullable="false" />
+    <Property Name="DescricaoNumeros" Type="varchar" MaxLength="50" />
+    <Property Name="NumerosAcertos" Type="int" />
+    <Property Name="IdBingo" Type="int" />
+    <Property Name="N1" Type="int" />
+    <Property Name="N2" Type="int" />
+    <Property Name="N3" Type="int" />
+    <Property Name="N4" Type="int" />
+    <Property Name="N5" Type="int" />
+    <Property Name="N6" Type="int" />
+    <Property Name="N7" Type="int" />
+    <Property Name="N8" Type="int" />
+    <Property Name="N9" Type="int" />
+    <Property Name="N10" Type="int" />
+    <Property Name="N11" Type="int" />
+    <Property Name="N12" Type="int" />
+    <Property Name="N13" Type="int" />
+    <Property Name="N14" Type="int" />
+    <Property Name="N15" Type="int" />
+  </EntityType>
+  <EntityType Name="Premio">
+    <Key>
+      <PropertyRef Name="IdPremio" />
+    </Key>
+    <Property Name="IdPremio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'C:\USERS\MAQUINA\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\PROJETOBINGO\PROJETOBINGO\APP_DATA\DATABASE1.MDF.dbo.vw_RANDValue' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="vw_RANDValue">
+          <Property Name="Value" Type="float" />
+        </EntityType>-->
+  <Association Name="FK_BingoPremio_Bingo">
+    <End Role="Bingo" Type="Self.Bingo" Multiplicity="1" />
+    <End Role="BingoPremio" Type="Self.BingoPremio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bingo">
+        <PropertyRef Name="IdBingo" />
+      </Principal>
+      <Dependent Role="BingoPremio">
+        <PropertyRef Name="IdBingo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BingoPremio_Premio">
+    <End Role="Premio" Type="Self.Premio" Multiplicity="1" />
+    <End Role="BingoPremio" Type="Self.BingoPremio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Premio">
+        <PropertyRef Name="IdPremio" />
+      </Principal>
+      <Dependent Role="BingoPremio">
+        <PropertyRef Name="IdPremio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cartela_ToTable">
+    <End Role="Bingo" Type="Self.Bingo" Multiplicity="0..1" />
+    <End Role="Cartela" Type="Self.Cartela" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bingo">
+        <PropertyRef Name="IdBingo" />
+      </Principal>
+      <Dependent Role="Cartela">
+        <PropertyRef Name="IdBingo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="FNGerarCartela" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Numero" Type="int" Nullable="false" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="PRC_GerarCartelas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BingoId" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="Bingo" EntityType="Self.Bingo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BingoPremio" EntityType="Self.BingoPremio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cartela" EntityType="Self.Cartela" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Premio" EntityType="Self.Premio" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BingoPremio_Bingo" Association="Self.FK_BingoPremio_Bingo">
+      <End Role="Bingo" EntitySet="Bingo" />
+      <End Role="BingoPremio" EntitySet="BingoPremio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BingoPremio_Premio" Association="Self.FK_BingoPremio_Premio">
+      <End Role="Premio" EntitySet="Premio" />
+      <End Role="BingoPremio" EntitySet="BingoPremio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cartela_ToTable" Association="Self.FK_Cartela_ToTable">
+      <End Role="Bingo" EntitySet="Bingo" />
+      <End Role="Cartela" EntitySet="Cartela" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ProjetoBingo.Entity.Premio>
+
+@{
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/scripts/jquery-3.0.0.min.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Incluir premio", "Create")
+    </p>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                Premios
+            </th>
+            <th>Ação</th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.IdPremio }) |
+                @Html.ActionLink("Details", "Details", new { id=item.IdPremio }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.IdPremio })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

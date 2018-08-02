@@ -1,0 +1,100 @@
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\ApplicationInsights.config
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\csc.exe
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\vbc.exe
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.dll.config
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.pdb
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\EntityFramework.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\EntityFramework.SqlServer.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Web.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Helpers.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Mvc.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Razor.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Razor.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\EntityFramework.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\EntityFramework.SqlServer.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Web.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Razor.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Razor.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Helpers.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\bin\System.Web.Mvc.xml
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.dll
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.pdb
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\ApplicationInsights.config
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\csc.exe
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\System.Collections.Immutable.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\System.Reflection.Metadata.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\vbc.exe
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\VBCSCompiler.exe
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\roslyn\VBCSCompiler.exe.config
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.dll.config
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\ProjetoBingo.pdb
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\EntityFramework.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\EntityFramework.SqlServer.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.DependencyCollector.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Web.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.WindowsServer.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.ApplicationInsights.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.Web.Infrastructure.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Helpers.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Mvc.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Razor.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Deployment.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Razor.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\EntityFramework.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\EntityFramework.SqlServer.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.DependencyCollector.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.Web.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.AI.WindowsServer.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.ApplicationInsights.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Razor.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Deployment.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Webpages.Razor.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Helpers.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\bin\System.Web.Mvc.xml
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.csprojResolveAssemblyReference.cache
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.dll
+D:\Diego Gay\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.pdb
+C:\Users\Maquina\Documents\Visual Studio 2015\Projects\ProjetoBingo\ProjetoBingo\obj\Debug\ProjetoBingo.csprojResolveAssemblyReference.cache

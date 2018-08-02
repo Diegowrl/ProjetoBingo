@@ -1,0 +1,40 @@
+﻿@model ProjetoBingo.Entity.Premio
+
+@{
+    Layout = null;
+}
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/scripts/jquery-3.0.0.min.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Premio</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IdPremio }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
